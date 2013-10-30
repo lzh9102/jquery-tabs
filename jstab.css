@@ -1,0 +1,8 @@
+.jstab_tab {
+	margin: 5px;
+	cursor: pointer;
+}
+
+.jstab_tab.active {
+	background-color: #3ce;
+}
