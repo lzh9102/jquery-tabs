@@ -1,7 +1,7 @@
-Tabbed interface implemented in jquery
---------------------------------------
+Tabbed interface example in jquery
+----------------------------------
 
-Convert the following structure into tabs to save screen area:
+This script converts the following structure into tabs to save screen area:
 
 ```
 <div class="jstab_container">
@@ -11,7 +11,7 @@ Convert the following structure into tabs to save screen area:
 </div>
 ```
 
-If javascript is disable, the blocks will be displayed as usual. No information
+If javascript is disabled, the blocks will be displayed as usual. No information
 will be hidden by disabling javascript.
 
 [demo](http://lzh9102.github.io/jquery-tabs/demo.html)
