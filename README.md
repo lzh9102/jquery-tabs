@@ -14,4 +14,4 @@ Convert the following structure into tabs to save screen area:
 If javascript is disable, the blocks will be displayed as usual. No information
 will be hidden by disabling javascript.
 
-[demo](demo.html)
+[demo](http://lzh9102.github.io/jquery-tabs/demo.html)
