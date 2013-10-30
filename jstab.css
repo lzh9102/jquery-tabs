@@ -1,12 +1,18 @@
 .jstab_tab {
+	float: left;
+	min-width: 70px;
 	margin-right: 5px;
+	border-bottom: 0.5em solid #9A9FFF;
+	color: #9A9FFF;
 	cursor: pointer;
 }
 
 .jstab_tab.active {
-	background-color: #3ce;
+	border-color: #5A6AFF;
+	color: #5A6AFF;
 }
 
 .jstab_page {
-	background-color: #3ce;
+	clear: both;
+	background-color: #5A6AFF;
 }
