@@ -1,5 +1,4 @@
-var jstab_init = function() {
-
+(function() {
 	var init_tabarea = function(container) {
 		var tab_container = $('<div class="jstab_tab_container"></div>');
 		var switchToPage = function(index) {
@@ -29,7 +28,11 @@ var jstab_init = function() {
 		switchToPage(0);
 	};
 
-	$('.jstab_container').each(function() {
-		init_tabarea($(this));
-	});
-}
+	var jstab_init = function() {
+		$('.jstab_container').each(function() {
+			init_tabarea($(this));
+		});
+	}
+
+	$(document).ready(jstab_init); // initialize jstab when document is loaded
+})();
