@@ -1,4 +1,4 @@
-(function() {
+(function($) {
 	var init_tabarea = function(container) {
 		var tab_container = $('<div class="jstab_tab_container"></div>');
 		var switchToPage = function(index) {
@@ -35,4 +35,4 @@
 	}
 
 	$(document).ready(jstab_init); // initialize jstab when document is loaded
-})();
+})(jQuery);
